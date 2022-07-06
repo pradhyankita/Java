@@ -18,32 +18,6 @@ public class pattern {
             System.out.println();
         }
 
-        System.out.println();
-        int q=1;
-        for (int r=3;r>=q;r++) {
-            for (int k = r; k >= q; k++) {
-                System.out.print(" ");
-            }
-            for (int k=1; k<r; k++) {
-                System.out.print("*");
-            }
-            for(int k=1;k<=r;k++){
-                System.out.print("*");
-            }
-            System.out.println();
-        }
-        int num=4;
-        for (int r=num;r>=1;r--) {
-            for (int k=r; k<num; k++) {
-                System.out.print(" ");
-            }
-            for (int k=1; k<=(2*r-1); k++) {
-                System.out.print("*");
-            }
-            //for(int k=1;k<=r;k++){
-              //  System.out.print("*");
-            }
-            System.out.println();
         }
     }
 

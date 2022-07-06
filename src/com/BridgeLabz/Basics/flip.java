@@ -13,21 +13,23 @@ public class flip
 
         System.out.println("How many times will the coin be flipped? ");
         int flips = in.nextInt();
+        if (flips>0){
+        System.out.println();
+    }
+            else{
+        System.out.println("The number entered is negative, pls enter a positive integer.");
+    }
 
-        while(counter <= flips)
-        {
+        while (counter <= flips) {
             randNum = Math.random();
             System.out.print(counter + "\t" + randNum);
 
-            if(randNum < .5)
-            {
-                heads++;
-                System.out.println("\t heads");
-            }
-            else
-            {
+            if (randNum < .5) {
                 tails++;
                 System.out.println("\t tails");
+            } else {
+                heads++;
+                System.out.println("\t heads");
             }
             counter++;
         }
